@@ -37,6 +37,7 @@ app.get("/preparation", (req, res) => res.render("prepping"));
 app.get("/prevention", (req, res) => res.render("prevention"));
 app.get("/tweets", (req, res) => res.render("tweets"));
 app.get("/wiki", (req, res) => res.render("coronainfo"));
+app.get("/news", (req, res) => res.render("news"));
 app.get("/travel", (req, res) => res.render("travel"));
 app.get("/press", (req, res) => res.render("press"));
 app.get("/email", (req, res) => res.render("email"));
