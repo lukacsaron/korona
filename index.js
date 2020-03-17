@@ -42,6 +42,6 @@ app.get("/press", (req, res) => res.render("press"));
 app.get("/email", (req, res) => res.render("email"));
 
 stats.fetchAllData().then(data => {
-  app.listen(process.env.PORT || 3000);
-  console.log("Listening on port: " + 3000);
+  app.listen(process.env.PORT || 8080);
+  console.log("Listening on port: " + 8080);
 });
